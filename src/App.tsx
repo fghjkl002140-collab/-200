@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ChevronRight, ChevronLeft, Activity, Star, ExternalLink } from 'lucide-react';
-import '../animations.css';
+import './animations.css'
 import { supabase } from './supabase';
 
 type Goal = '筋肥大' | 'ダイエット' | '健康維持' | '';
